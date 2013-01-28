@@ -20,5 +20,10 @@ namespace ConsoleProject
         {
             return a*b;
         }
+
+        public static int Divider(int a, int b)
+        {
+            return a/b;
+        }
     }
 }

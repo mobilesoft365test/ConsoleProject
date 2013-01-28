@@ -21,5 +21,11 @@ namespace TestProject
     {
         Assert.AreEqual(Program.Mult(3, 5), 15);
     }
+
+    [Test]
+    public void DivTest()
+    {
+        Assert.AreEqual(Program.Divider(9, 3), 3);
+    }
     }
 }
