@@ -15,5 +15,10 @@ namespace ConsoleProject
         {
             return a + b;
         }
+
+        public static int Mult(int a, int b)
+        {
+            return a*b;
+        }
     }
 }

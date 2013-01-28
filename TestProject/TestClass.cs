@@ -11,9 +11,15 @@ namespace TestProject
     class TestClass
     {
         [Test]
-        public void addTest()
+        public void AddTest()
         {
             Assert.AreEqual(Program.Add(2,3),5);
         }
+
+    [Test]
+        public void MultTest()
+    {
+        Assert.AreEqual(Program.Mult(3, 5), 15);
+    }
     }
 }
